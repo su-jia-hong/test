@@ -27,7 +27,7 @@ import os
 os.system('pip install openai --upgrade')
 
 # 使用 curl 下載 clinic_qa.json 文件
-os.system('curl -o clinic_qa.json -L https://github.com/hong91511/fine_tuning/blob/main/coffeeshopprepare.jsonl')
+os.system('curl -o clinic_qa.json -L https://github.com/hong91511/fine_tuning/blob/main/coffeeshop.json')
 
 import openai
 
